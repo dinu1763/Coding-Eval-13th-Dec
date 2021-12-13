@@ -1,5 +1,4 @@
 const { Schema, model } = require('mongoose');
-
 const seatSchema = new Schema({
     screen:{
         type: Schema.Types.ObjectId,
@@ -11,5 +10,5 @@ const seatSchema = new Schema({
     timestamps:true
 });
 
-const Seat = model('seat', showSchema);
+const Seat = model('seat', seatSchema);
 module.exports = Seat;

@@ -20,6 +20,9 @@
   "homepage": "https://github.com/dinu1763/Coding-Eval-13th-Dec#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^6.1.1"
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.1",
+    "multer": "^1.4.4"
   }
 }
