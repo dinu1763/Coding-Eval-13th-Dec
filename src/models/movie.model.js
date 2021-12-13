@@ -6,6 +6,11 @@ const movieSchema = new Schema({
     languages : [{type:String, required: true},],
     directors : [{type:String, required: true},],
     poster_url :{type:String, required: true},
+    user:{
+        type:Schema.Types.ObjectId,
+        ref:'user',
+        required:true
+    }
 },{
     versionKey:false,
     timestamps:true

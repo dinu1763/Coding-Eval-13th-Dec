@@ -27,6 +27,7 @@ router.post('/',authenticate, upload.single('poster_url'), async(req, res) =>{
             languages:req.body.languages,
             directors:req.body.directors,
             poster_url:req.file.path,
+            user:tokenUser.user._id,
 
         });
         return res.status(201).json({movie});
