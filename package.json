@@ -1,0 +1,25 @@
+{
+  "name": "coding-eval-13th-dec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinu1763/Coding-Eval-13th-Dec.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinu1763/Coding-Eval-13th-Dec/issues"
+  },
+  "homepage": "https://github.com/dinu1763/Coding-Eval-13th-Dec#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1"
+  }
+}
